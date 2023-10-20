@@ -1,0 +1,11 @@
+main {
+    height: 250px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.25em 0;
+}
