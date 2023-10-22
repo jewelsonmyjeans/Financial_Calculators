@@ -40,7 +40,31 @@
       </div>
     </nav>
 
-    <script src="scripts/index.js" type="module"></script>
+    <main class="container">
+      <div
+        class="cd-container d-flex flex-column justify-content-start align-items-center"
+      >
+        <h1>CD Calculator</h1>
+        <div class="input-container">
+          <label for="deposit-amount">Deposit Amount:</label>
+          <input type="number" id="deposit-amount" placeholder="$10000" />
+        </div>
+        <div class="input-container">
+          <label for="apy">APY (%):</label>
+          <input type="number" id="apy" placeholder="4" />
+        </div>
+        <div class="input-container">
+          <label for="cd-term">CD Term Length (in months):</label>
+          <input type="number" id="cd-term" placeholder="12" />
+        </div>
+        <div class="input-container">
+          <button id="calculate-btn" class="btn btn-primary">Calculate</button>
+          <p id="total-return">Total Return: $0</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts/cdCalculator.js" type="module"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

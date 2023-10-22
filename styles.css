@@ -9,3 +9,8 @@ main {
     flex-direction: column;
     margin: 1.25em 0;
 }
+
+.cd-container {
+    background-color: #a29898;
+    border-radius: 10px;
+}
