@@ -5,12 +5,13 @@ I've made a couple of calculators one that can calculate your mortgage and one t
 
 ## Live Preview
 
+[Finanical Calculators Live Site](https://jewelsonmyjeans.github.io/Workbook2_FinancialCalculators/)
+
 # Preview
 
 ![Alt text](./images/home.png)
 ![Alt text](./images/mortgage.png)
 ![Alt text](./images/cd.png)
-
 
 ### Languages and Tools
 - HTML 
